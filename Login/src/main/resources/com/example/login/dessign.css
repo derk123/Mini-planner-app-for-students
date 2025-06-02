@@ -1,0 +1,37 @@
+.login-bg{
+-fx-background-color:linear-gradient(to bottom right, #141E30,#243B55) ;
+}
+.sign-in{
+    -fx-background-color: blue;
+}
+.textfield-design{
+    -fx-background-color: transparent;
+    -fx-border-color: #509dea;
+    -fx-border-width: 0px 0px 3px 0px ;
+}
+
+.button-design{
+    -fx-background-color: #509dea;
+    -fx-background-radius: 40px ;
+    -fx-text-fill :#fff;
+}
+.button-design:hover{
+    -fx-background-color: #6eb9ff;
+}
+.hypertext-design{
+    -fx-text-fill: #509dea;
+}
+.exit{
+    -fx-background-radius: 50px;
+    -fx-cursor: hand;
+}
+
+.m{
+    -fx-text-fill:#fff;
+
+}
+.m-g{
+    -fx-border-color:#141E30 ;
+    -fx-text-fill: #141E30;
+}
+

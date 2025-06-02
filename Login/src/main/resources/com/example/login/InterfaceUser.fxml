@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="508.0" prefWidth="583.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login.InterfaceUserController">
+   <children>
+      <StackPane fx:id="contentStackPane" prefHeight="508.0" prefWidth="583.0" />
+      <Pane layoutY="384.0" prefHeight="123.0" prefWidth="583.0">
+         <children>
+            <ImageView fx:id="userImageView" fitHeight="29.0" fitWidth="57.0" layoutX="505.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#handleUserImageClick">
+               <image>
+                  <Image url="@image/user (2).png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="calendarImageView" fitHeight="39.0" fitWidth="29.0" layoutX="364.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#handleCalendarImageClick">
+               <image>
+                  <Image url="@image/calender.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="clipboardImageView" fitHeight="39.0" fitWidth="29.0" layoutX="198.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#handleClipboardImageClick">
+               <image>
+                  <Image url="@image/clipboard_120835.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="menuImageView" fitHeight="39.0" fitWidth="29.0" layoutX="44.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#handleMenuImageClick">
+               <image>
+                  <Image url="@image/menu.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

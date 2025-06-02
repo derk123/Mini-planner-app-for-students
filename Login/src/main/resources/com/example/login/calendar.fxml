@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login.CalendarController" alignment="CENTER" spacing="10">
+    <Label fx:id="selectedDateLabel" text="Date sélectionnée apparaîtra ici" />
+    <DatePicker fx:id="datePicker" onAction="#handleDateChange"/>
+</VBox>

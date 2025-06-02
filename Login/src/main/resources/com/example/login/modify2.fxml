@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="483.0" prefWidth="455.0" styleClass="login-bg" stylesheets="@dessign.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login.HelloController">
+   <children>
+      <ImageView fitHeight="295.0" fitWidth="200.0" layoutX="135.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@login-935679.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="confirm" layoutX="158.0" layoutY="408.0" mnemonicParsing="false"  prefHeight="26.0" prefWidth="138.0" styleClass="button-design" stylesheets="@dessign.css" text="confirm" />
+      <CheckBox fx:id="checkBoxconfirm" layoutX="135.0" layoutY="344.0" mnemonicParsing="false" text="view password" textFill="WHITE" />
+      <PasswordField fx:id="PaswordFieldNew" layoutX="135.0" layoutY="202.0" prefHeight="26.0" prefWidth="200.0" promptText="NEW PASSWORD" stylesheets="@dessign.css">
+         <styleClass>
+            <String fx:value="login-bg" />
+            <String fx:value="m" />
+         </styleClass>
+      </PasswordField>
+      <PasswordField fx:id="PaswordFieldConfirm" layoutX="135.0" layoutY="306.0" prefHeight="26.0" prefWidth="200.0" promptText="CONFIRM PASSWORD" stylesheets="@dessign.css">
+         <styleClass>
+            <String fx:value="login-bg" />
+            <String fx:value="m" />
+         </styleClass>
+      </PasswordField>
+      <TextField fx:id="TextFieldNew" layoutX="135.0" layoutY="202.0" prefHeight="26.0" prefWidth="200.0" visible="false" />
+      <TextField fx:id="TextFieldConfirm" layoutX="135.0" layoutY="306.0" prefHeight="26.0" prefWidth="200.0" visible="false" />
+      <CheckBox fx:id="checkBoxNew" layoutX="135.0" layoutY="252.0" mnemonicParsing="false" text="view password" textFill="WHITE" />
+   </children>
+</AnchorPane>

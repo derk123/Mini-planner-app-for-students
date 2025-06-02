@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="508.0" prefWidth="583.0" stylesheets="@dessign.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login.HelloController">
+   <children>
+      <AnchorPane layoutX="-2.0" layoutY="-1.0" prefHeight="512.0" prefWidth="594.0" styleClass="login-bg" stylesheets="@dessign.css">
+         <children>
+            <Pane layoutX="284.0" layoutY="9.0" prefHeight="498.0" prefWidth="306.0" stylesheets="@dessign.css">
+               <children>
+                  <Button fx:id="btn" layoutX="57.0" layoutY="377.0" mnemonicParsing="false" onAction="#login" prefHeight="31.0" prefWidth="175.0" styleClass="button-design" stylesheets="@dessign.css" text="Login">
+                     <font>
+                        <Font name="Berlin Sans FB" size="14.0" />
+                     </font>
+                  </Button>
+                  <TextField fx:id="textfield" layoutX="42.0" layoutY="236.0" prefHeight="31.0" prefWidth="213.0" promptText="USERNAME" stylesheets="@dessign.css">
+                     <font>
+                        <Font name="Berlin Sans FB Bold" size="14.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="login-bg" />
+                        <String fx:value="m" />
+                     </styleClass></TextField>
+                  <ImageView fitHeight="119.0" fitWidth="200.0" layoutX="57.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@login-935679.png" />
+                     </image>
+                  </ImageView>
+                  <Hyperlink fx:id="hyperlink" layoutX="84.0" layoutY="421.0" onAction="#openSecondFile" prefHeight="24.0" prefWidth="128.0" text="Create new Account" />
+                  <PasswordField fx:id="passwordField" layoutX="42.0" layoutY="300.0" prefHeight="31.0" prefWidth="213.0" promptText="PASSWORD" stylesheets="@dessign.css">
+                     <font>
+                        <Font name="Berlin Sans FB Bold" size="14.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="login-bg" />
+                        <String fx:value="m" />
+                     </styleClass>
+                  </PasswordField>
+                  <ImageView fitHeight="31.0" fitWidth="39.0" layoutX="263.0" pickOnBounds="true" preserveRatio="true" styleClass="exit">
+                     <image>
+                        <Image url="@icons8-cancel-48.png" />
+                     </image>
+                  </ImageView>
+                  <CheckBox fx:id="checkBox" layoutX="49.0" layoutY="344.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="16.0" styleClass="m" stylesheets="@dessign.css" />
+                  <Label layoutX="87.0" layoutY="344.0" prefHeight="24.0" prefWidth="82.0" text="View password">
+                     <textFill>
+                        <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.7099999785423279" green="0.04969999939203262" blue="0.04969999939203262" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </RadialGradient>
+                     </textFill>
+                  </Label>
+                  <TextField fx:id="textField" layoutX="42.0" layoutY="303.0" prefHeight="25.0" prefWidth="213.0" stylesheets="@dessign.css" visible="false">
+                     <styleClass>
+                        <String fx:value="login-bg" />
+                        <String fx:value="m" />
+                     </styleClass>
+                  </TextField>
+                  <Hyperlink fx:id="hyperlink1" layoutX="89.0" layoutY="455.0" onAction="#openfileFXML" prefHeight="24.0" prefWidth="128.0" text="Password Forget?" />
+               </children>
+            </Pane>
+            <AnchorPane layoutX="37.0" layoutY="32.0" prefHeight="462.0" prefWidth="231.0">
+               <children>
+                  <Label layoutX="7.0" layoutY="77.0" prefHeight="280.0" prefWidth="219.0" styleClass="m-g" stylesheets="@dessign.css" text="G">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="220.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

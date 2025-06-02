@@ -1,0 +1,26 @@
+.year-label {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-padding: 20px 0;
+    -fx-alignment: center;
+}
+
+.month-label {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 0;
+    -fx-alignment: center;
+}
+
+.day-label {
+    -fx-font-size: 16px;
+    -fx-padding: 5px 10px;
+    -fx-alignment: center;
+}
+
+.gridpane .label {
+    -fx-border-color: lightgray;
+    -fx-border-width: 0.5;
+    -fx-alignment: center;
+    -fx-padding: 5px;
+}

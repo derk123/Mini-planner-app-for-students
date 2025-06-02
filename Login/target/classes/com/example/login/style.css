@@ -1,0 +1,36 @@
+.date-picker-popup {
+    -fx-background-color: #f5f5f5;
+}
+
+.date-cell {
+    -fx-background-color: white;
+}
+
+.date-cell:filled:hover {
+    -fx-background-color: #dcdcdc;
+}
+
+.date-cell:selected {
+    -fx-background-color: #87CEEB; /* Light blue color */
+}
+
+.date-picker .arrow-button {
+    -fx-background-color: transparent;
+}
+
+.date-picker .arrow {
+    -fx-background-color: #000000;
+}
+
+.date-picker .month-label,
+.date-picker .year-label {
+    -fx-text-fill: black;
+}
+
+.date-picker .day-name-cell {
+    -fx-text-fill: black;
+}
+
+.date-picker .day-cell {
+    -fx-text-fill: black;
+}
